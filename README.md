@@ -76,20 +76,20 @@ start_time, hour, day, week, month, year, weekday
 
 <b>Create Table Schema</b>
 
-1. Write a SQL CREATE statement for each of these tables in sql_queries.py
-2. Complete the logic in create_tables.py to connect to the database and create these tables
-3. Write SQL DROP statements to drop tables in the beginning of create_tables.py if the tables already exist. This way, you can run create_tables.py whenever you want to reset your database and test your ETL pipeline.
-4. Launch a redshift cluster and create an IAM role that has read access to S3.
-5. Add redshift database (ENDPOINT or HOST)and IAM role info to dwh.cfg.
-6. Test by running create_tables.py and checking the table schemas in your redshift database.
+1. Written a SQL CREATE statement for each of these tables in sql_queries.py
+2. Completed the logic in create_tables.py to connect to the database and created these tables
+3. Written SQL DROP statements to drop tables in the beginning of create_tables.py if the tables already exist. That way I can run create_tables.py whenever I want to reset my database and test my ETL pipeline.
+4. Launched a redshift cluster and created an IAM role that has read access to S3.
+5. Added redshift database (ENDPOINT or HOST)and IAM role info to dwh.cfg.
+6. Tested by running create_tables.py and checking the table schemas in my redshift database.
 
 
 #### ETL Process
 
-1. Implement the logic in etl.py to load data from S3 to staging tables on Redshift.
-2. Implement the logic in etl.py to load data from staging tables to analytics tables on Redshift.
-3. Test by running etl.py after running create_tables.py and running the analytic queries on your Redshift database to compare your results with the expected results.
-4. Delete your redshift cluster when finished.
+1. Implemented the logic in etl.py to load data from S3 to staging tables on Redshift.
+2. Implemented the logic in etl.py to load data from staging tables to analytics tables on Redshift.
+3. Tested by running etl.py after running create_tables.py and running the analytic queries on my Redshift database.
+4. Deleted my redshift cluster.
 
 
 #### How to Run
