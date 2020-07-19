@@ -2,7 +2,7 @@
 
 ## Summary
 * [Introduction](#Introduction)
-* [Project Description and Datasets](#Project description and Datasets)
+* [Project Description and Datasets](#Project-description-and-Datasets)
 * [Schema](#Schema)
 * [ETL process](#ETL-process)
 * [How to run](#How-to-run)
